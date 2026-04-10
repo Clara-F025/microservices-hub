@@ -1,4 +1,4 @@
-package com.github.claraf025.ms.pedidos;
+package com.github.cidarosa.ms.pedidos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
