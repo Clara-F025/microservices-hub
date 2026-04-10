@@ -1,8 +1,8 @@
-package com.github.cidarosa.ms.pedidos.dto;
+package com.github.claraf025.ms.pedidos.dto;
 
-import com.github.cidarosa.ms.pedidos.entities.ItemDoPedido;
-import com.github.cidarosa.ms.pedidos.entities.Pedido;
-import com.github.cidarosa.ms.pedidos.entities.Status;
+import com.github.claraf025.ms.pedidos.entities.ItemDoPedido;
+import com.github.claraf025.ms.pedidos.entities.Pedido;
+import com.github.claraf025.ms.pedidos.entities.Status;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import jakarta.validation.Valid;

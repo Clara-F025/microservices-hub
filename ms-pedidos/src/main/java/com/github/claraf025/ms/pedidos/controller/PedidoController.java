@@ -1,7 +1,7 @@
-package com.github.cidarosa.ms.pedidos.controller;
+package com.github.claraf025.ms.pedidos.controller;
 
-import com.github.cidarosa.ms.pedidos.dto.PedidoDTO;
-import com.github.cidarosa.ms.pedidos.service.PedidoService;
+import com.github.claraf025.ms.pedidos.dto.PedidoDTO;
+import com.github.claraf025.ms.pedidos.service.PedidoService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

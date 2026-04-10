@@ -1,9 +1,9 @@
-package com.github.cidarosa.ms.pedidos.exceptions.handler;
+package com.github.claraf025.ms.pedidos.exceptions.handler;
 
-import com.github.cidarosa.ms.pedidos.exceptions.DatabaseException;
-import com.github.cidarosa.ms.pedidos.exceptions.ResourceNotFoundException;
-import com.github.cidarosa.ms.pedidos.exceptions.dto.CustomErrorDTO;
-import com.github.cidarosa.ms.pedidos.exceptions.dto.ValidationErrorDTO;
+import com.github.claraf025.ms.pedidos.exceptions.DatabaseException;
+import com.github.claraf025.ms.pedidos.exceptions.ResourceNotFoundException;
+import com.github.claraf025.ms.pedidos.exceptions.dto.CustomErrorDTO;
+import com.github.claraf025.ms.pedidos.exceptions.dto.ValidationErrorDTO;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

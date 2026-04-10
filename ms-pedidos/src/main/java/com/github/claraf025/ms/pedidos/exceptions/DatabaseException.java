@@ -1,4 +1,4 @@
-package com.github.cidarosa.ms.pedidos.exceptions;
+package com.github.claraf025.ms.pedidos.exceptions;
 
 public class DatabaseException extends RuntimeException{
 

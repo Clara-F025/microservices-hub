@@ -1,4 +1,4 @@
-package com.github.cidarosa.ms.pedidos.entities;
+package com.github.claraf025.ms.pedidos.entities;
 
 public enum Status {
 

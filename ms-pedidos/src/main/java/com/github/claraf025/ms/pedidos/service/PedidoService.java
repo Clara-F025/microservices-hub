@@ -1,13 +1,13 @@
-package com.github.cidarosa.ms.pedidos.service;
+package com.github.claraf025.ms.pedidos.service;
 
-import com.github.cidarosa.ms.pedidos.dto.ItemDoPedidoDTO;
-import com.github.cidarosa.ms.pedidos.dto.PedidoDTO;
-import com.github.cidarosa.ms.pedidos.entities.ItemDoPedido;
-import com.github.cidarosa.ms.pedidos.entities.Pedido;
-import com.github.cidarosa.ms.pedidos.entities.Status;
-import com.github.cidarosa.ms.pedidos.exceptions.ResourceNotFoundException;
-import com.github.cidarosa.ms.pedidos.repositories.ItemDoPedidoRepository;
-import com.github.cidarosa.ms.pedidos.repositories.PedidoRepository;
+import com.github.claraf025.ms.pedidos.dto.ItemDoPedidoDTO;
+import com.github.claraf025.ms.pedidos.dto.PedidoDTO;
+import com.github.claraf025.ms.pedidos.entities.ItemDoPedido;
+import com.github.claraf025.ms.pedidos.entities.Pedido;
+import com.github.claraf025.ms.pedidos.entities.Status;
+import com.github.claraf025.ms.pedidos.exceptions.ResourceNotFoundException;
+import com.github.claraf025.ms.pedidos.repositories.ItemDoPedidoRepository;
+import com.github.claraf025.ms.pedidos.repositories.PedidoRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

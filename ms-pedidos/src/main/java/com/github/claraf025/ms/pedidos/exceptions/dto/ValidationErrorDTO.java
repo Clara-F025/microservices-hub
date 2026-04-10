@@ -1,4 +1,4 @@
-package com.github.cidarosa.ms.pedidos.exceptions.dto;
+package com.github.claraf025.ms.pedidos.exceptions.dto;
 
 import lombok.Getter;
 

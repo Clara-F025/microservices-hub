@@ -1,6 +1,6 @@
-package com.github.cidarosa.ms.pedidos.dto;
+package com.github.claraf025.ms.pedidos.dto;
 
-import com.github.cidarosa.ms.pedidos.entities.ItemDoPedido;
+import com.github.claraf025.ms.pedidos.entities.ItemDoPedido;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
