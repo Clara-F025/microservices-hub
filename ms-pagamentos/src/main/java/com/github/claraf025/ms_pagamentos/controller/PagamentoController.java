@@ -18,14 +18,15 @@ public class PagamentoController {
     @Autowired
     private PagamentoService service;
 
+
     @GetMapping("/{id}")
     public ResponseEntity<PagamentoDTO> getById(@PathVariable Long id){
-        return ResponseEntity.ok().body(service.getPagamentoById(id));
+        return ResponseEntity.ok().body(service.findPagamentoById(id));
     }
 
     @GetMapping
     public ResponseEntity<List<PagamentoDTO>> getPagamentos(){
-        return ResponseEntity.ok().body(service.getPagamentos());
+        return ResponseEntity.ok().body(service.findAllPagamentos());
     }
 
     @PostMapping

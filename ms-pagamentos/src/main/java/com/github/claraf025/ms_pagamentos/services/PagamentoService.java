@@ -19,12 +19,12 @@ public class PagamentoService {
     private PagamentoRepository repository;
 
     @Transactional(readOnly = true)
-    public List<PagamentoDTO> getPagamentos() {
+    public List<PagamentoDTO> findAllPagamentos() {
         return repository.findAll().stream().map(PagamentoDTO::new).toList();
     }
 
     @Transactional(readOnly = true)
-    public PagamentoDTO getPagamentoById(Long id) {
+    public PagamentoDTO findPagamentoById(Long id) {
         Pagamento pagamento = repository.findById(id).orElseThrow(
                 ()-> new ResourceNotFoundException("Recurso não encontrado. ID: "+id));
 
